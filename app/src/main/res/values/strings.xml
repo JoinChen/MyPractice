@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MyPractice</string>
+    <string name="title_draw_color">颜色</string>
+    <string name="title_draw_circle">圆</string>
+    <string name="title_draw_rect">矩形</string>
+    <string name="title_draw_oval">椭圆</string>
+    <string name="title_draw_line">直线</string>
+    <string name="title_draw_round_rect">圆角矩形</string>
+    <string name="title_draw_arc">圆弧/扇形</string>
+    <string name="title_draw_path">路径画图</string>
+    <string name="title_draw_histogram">直方图</string>
+    <string name="title_draw_pie_chart">饼图</string>
+    <string name="title_grident">GridentView</string>
+    <string name="title_color_filter">colorfilter</string>
+    <string name="title_Xfermode">Xfermode</string>
+    <string name="title_maskfilter">maskfilter</string>
+    <string name="title_clip">裁切</string>
+    <string name="title_imageview">onDraw前后执行</string>
+    <string name="about_hencoder">HenCoder 是\n针对高级 Android 工程师\n的进阶手册\n旨在突破高手们最基础的技能瓶颈</string>
+    <string name="title_animator">动画</string>
+    <string name="title_animator_degree">进度动画</string>
+    <string name="title_animator_evaluator">evaluator</string>
+    <string name="title_animator_mesure">测量</string>
+
+</resources>

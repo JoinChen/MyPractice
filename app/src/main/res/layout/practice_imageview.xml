@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <com.bksx.changxindian.mypractice.practice.DrawImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/batman"/>
+            <com.bksx.changxindian.mypractice.practice.DrawQianChaImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/fuck"/>
+            <com.bksx.changxindian.mypractice.practice.DrawTextQiancha
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_hencoder"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <com.bksx.changxindian.mypractice.practice.DrawLinerLayout
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:src="@drawable/batman"
+                    android:scaleType="center"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="BATMAN"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@color/colorPrimary"/>
+
+
+            </com.bksx.changxindian.mypractice.practice.DrawLinerLayout>
+            <com.bksx.changxindian.mypractice.practice.DrawLinerLayoutForeground
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:foreground="#88000000"
+                android:background="@drawable/batman">
+
+            </com.bksx.changxindian.mypractice.practice.DrawLinerLayoutForeground>
+            <it.sephiroth.android.library.imagezoom.ImageViewTouch
+                android:id="@+id/imageview"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:background="@drawable/ondraw"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
